@@ -1,0 +1,61 @@
+
+.contact
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 3%;
+    margin-top: 5em;
+}
+
+.contact .c_item1 
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact .c_item1 img
+{
+    max-width: 100%;
+}
+
+.contact .c_item2 h4
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact .c_item2 .c_form label
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    width: 5rem;
+    font-weight: 600;
+}
+
+.contact .c_item2 .c_form input
+{ width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.contact .c_item2 .c_form button
+{
+    padding: 5px;
+    background-color: black;
+    border-radius: 3px;
+    width: 5rem;
+    float: right;
+    margin-right: 5rem;
+    text-decoration: none;
+}
+.contact .c_item2 .c_form button:hover
+{
+	background-color: #789629;
+}
+
+.contact .c_item2 .c_form a
+{
+    text-decoration: none;
+    color: white;
+}
+

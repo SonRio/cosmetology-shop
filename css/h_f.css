@@ -1,0 +1,189 @@
+/*Css for header*/
+body
+{
+	background-color: #f1f1f1;
+}
+.header 
+{
+	display: grid;
+	grid-template-columns:10% 15% 1fr 15% 5% 10%; 
+	width: 100%;
+}
+
+.header img:nth-child(1)
+{
+	grid-column: 2/3;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header .search
+{
+	display: inline-flex;
+
+}
+.header .search button
+{
+	max-height: 2.5em;
+	margin-top: 1em;
+    background: none;
+    border: 1px solid #ced4da;
+    -moz-border-radius:7px; 
+    -webkit-border-radius:7px; 
+}
+.h5
+{
+	margin-top: 2em;
+}
+
+.header .search input
+{
+	margin-top: 1em;
+	padding: 0.5em;
+	max-width: 60%;
+}
+
+
+.header .login
+{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 13px;
+	font-family: Arial;
+
+}
+
+.header .login a
+{
+	color: #000;
+	text-decoration: none;
+}
+
+.header .login img
+{
+	margin-top: 1em;
+	max-width: 50%;
+}
+
+.header ul
+{
+	list-style-type: none;
+	margin-top: 0.5em;
+
+}
+
+.header ul li
+{
+	padding: 1em 0;
+	display: inline-block;
+	margin: 0 1.5%;
+
+}
+
+.header ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
+
+.header ul li a:hover
+{
+	padding: 1em 0;
+	background-color: #fff;
+	color: #799729;
+	border-radius: 5px;
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+}
+
+/*Footer*/
+.footer 
+{
+	display: grid;
+	grid-template-columns: auto;
+	padding-top: 1em;
+	border-top: 1px solid #818181;
+	background-color: #414141;
+}
+
+
+.footer .some_things
+{
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 20% 20% 20% 20% ;
+	font-family: Arial;
+	font-size: 15px;
+
+}
+
+.footer .some_things .contact p
+{
+	color: #bdbdbd;
+}
+.footer .some_things h5
+{
+	text-align: center;
+	color: #fff;
+}
+
+.footer .some_things ul
+{
+	list-style-type: none;
+}
+.footer .some_things ul li
+{
+	display: inline-block;
+	margin: 0.5em 0;
+
+}
+
+.footer .some_things a
+{
+	text-decoration: none;
+	color: #bdbdbd;
+}
+
+.footer .some_things ul a:hover
+{
+	padding: 2px;
+	color: #789629;
+}
+
+.footer .footer_icon
+{
+    width: 100%;
+    border-top: 1px solid #d2d2d2;
+    display: flex;
+    margin-top: 2em;
+}
+
+.footer .footer_icon .row
+{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.footer .footer_icon .row p
+{
+    font-size: 9pt;
+    color: #818181;
+    margin: 10% 0 ;
+}
+
+.footer .footer_icon  ul
+{
+    list-style-type:none;
+    padding: 0;
+    margin: 0 0 0 60%;
+
+}
+
+.footer .footer_icon  ul li
+{
+    display: inline-block;
+    margin-right: 5%;
+}

@@ -1,0 +1,15 @@
+.introduce
+{
+	display: grid;
+	grid-gap: 2em;
+	grid-template-columns: auto auto;
+	font-size: 15px;
+	font-family: Arial;
+	margin-top: 5em;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.introduce .img_intro img
+{
+	max-width: 100%;
+}

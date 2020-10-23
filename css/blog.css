@@ -1,0 +1,28 @@
+.main_blog
+{
+    display: grid;
+    max-width: 100%;
+    margin-top: 3%;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+.t_b
+{
+    font-family: cursive;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 7%;
+}
+.item_blog
+{
+    width: 80%;
+    display: grid;
+    grid-template-rows: auto;
+}
+.item_blog img
+{
+    width: 100%;
+}

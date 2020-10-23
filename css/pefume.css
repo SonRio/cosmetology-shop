@@ -1,0 +1,45 @@
+* main{
+    font-family: 'Times New Roman', Times, serif;
+}
+.t_per 
+{   
+    font-family: cursive;
+    margin-top: 7%;
+    color: #79962a;
+    text-align: center;
+    font-size: 32px;
+}
+
+.perfu
+{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1em;
+    max-width: 82%;
+    margin: 0 auto;
+}
+
+.perfu a
+{
+    text-decoration: none;
+    color: #777;
+}
+.perfu a p
+{
+    color: #000;
+}
+.perfu img
+{
+    max-height: 320px;
+    max-width: 100%;
+    outline-style: none;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.perfu img:hover
+{
+    opacity: 0.5;
+}
+
